@@ -8,15 +8,15 @@ import Notifications from './components/Notifications';
 
 const useStyles = makeStyles((theme) => ({
   appBar: {
-    borderRadius: 15,
+    borderRadius: '8px',
     margin: '30px 100px',
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
-    width: '600px',
+    width: '80vw',
     border: '2px solid black',
-
+    padding: '10px',
     [theme.breakpoints.down('xs')]: {
       width: '90%',
     },
